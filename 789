@@ -1,0 +1,10 @@
+<div class="row">
+					<div class="form-group" style="margin-top: 20px">
+					
+						<input type="hidden" id="mode" name="mode" value="login">
+						<input onclick="LoginError()" type="button" name="btnLogin" 
+							style="margin-left: 50px" value="Login" /> <input type="button"
+							name="btnClear" onclick="LoginClear()"
+							style="margin-left: 100px" value="Clear" />
+					</div>
+			</form>
